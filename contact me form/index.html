@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me - Manisha Sahoo</title>
+</head>
+<body>
+    <main>
+        <center>
+            <h1>Contact me</h1>
+        <p>Please use this form to reach out about roles , freelance work or collaborations.</p>
+        </center>
+        <form action="mailto:manishasahoo369@gmail.com" method="post">
+            <table cellpadding="20px" width="70%" align="center">
+                <tr>
+                    <td>
+                        <fieldset>
+                <legend>Your details</legend>
+                <label for="name">fullName :</label> <br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required="true" maxlength="80"> <br><br>
+
+                <label for="email">Email :</label> <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email address"required="true" maxlength="120"> <br><br>
+
+                <label for="phone">Phone :</label> <br>
+                <input type="tel" id="phone" name="phone" required="true" placeholder="+91"> <br><br>
+
+                <label for="linkedin">Linkedin :</label> <br>
+                <input type="url" id="linkedin" name="linkedin" placeholder="Linkedin URL"> <br><br>
+
+                <label for="github">GitHub :</label> <br>
+                <input type="url" id="github" name="github" placeholder="Github URL"> <br><br>
+            </fieldset>
+            <fieldset>
+                <br>
+                <legend>Reason for contact :</legend>
+                <label for="subject">Subject :</label> 
+                <select name="subject" id="subject" >
+                    <option value="Job Opportunity">Job Opportunity</option>
+                    <option value="Freelance project">Freelance project</option>
+                    <option value="Collaborations">Collaborations</option>
+                    <option value="Speaking invite">Speaking invite</option>
+                    <option value="General inquiry">General inquiry</option>
+                </select>
+                <br><br>
+
+                <span>Preferred contact method :</span>
+                <input type="radio" id="phone" name="preferred_contact" value="phone">
+                <label for="phone">Phone</label>
+
+                <input type="radio" id="mail" name="preferred_contact" value="mail">
+                <label for="mail">Email</label>
+
+                <input type="radio" id="linkedin" name="preferred_contact" value="linkedin"> 
+                <label for="linkedin">Linkedin</label>
+                <br><br> 
+
+                <span>Best time to reach you :</span>
+                <input type="radio" id="morning" name="best time" value="morning">
+                <label for="morning">Morning (9-12)</label>
+                
+                <input type="radio" id="afternoon" name="best time" value="afternoon">
+                <label for="afternoon">Afternoon (12-4)</label>
+                
+                <input type="radio" id="evening" name="best time" value="evening"> 
+                <label for="evening">evening (4-7)</label>
+    
+            </fieldset>
+            
+            <fieldset>
+                <legend>Your message </legend>
+                <label for="message"></label>
+                <textarea name="message" id="message" rows="10" cols="50" placeholder="Write your message"></textarea>
+                <br><br>
+                <label for="attachment">Attach portfolio</label>
+                <input type="file" id="attachment" name="attachment">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Consent</legend>
+                <input type="checkbox" id="consent" name="consent" required="true">
+                <label for="consent">I agree to be contacted regarding my inquiry.</label>
+                <br><br>
+            </fieldset> 
+            <br>
+           <center>
+             <input type="submit" value="submit">
+            <input type="reset" value="reset">
+           </center>
+
+            <p align="center"><small>By submitting this form , you acknowledge that the information provided will be used to respond to your inquiry.</small></p>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+        <address>
+            <p align="center">
+                <strong>Manisha Sahoo</strong> <br>
+                Cuttack,Odisha <br>
+                <a href="mailto:manishasahoo369@gmail.com">manishasahoo369@gmail.com</a> <br>
+                <a href="tel:9040825393">+91 9040825393</a>
+            </p>
+        </address>
+    </main>
+</body>
+</html>
